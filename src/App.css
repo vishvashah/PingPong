@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.text-danger{
+  color: red
+}
+.has-wrapper {
+  position: relative;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.form-container form, .result-main {
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.form-container form .form-group {
+  padding-bottom: 26px;
+}
+.form-container form label {
+  padding-right: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.mlr-20 {
+  margin: 10px 20px !important;
+}
